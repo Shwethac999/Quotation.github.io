@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Quote.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="head" style="float: left;">Quotation</h1>
+        <p id="date" style="float: right;">Date :
+            <span id="day"></span> 
+            <br>Time : <span id="time"></span>
+        </p>
+    </div>
+    <br><br>
+<table  class="tab">
+    <tr>
+        <th>Sl.no</th>
+        <th>Product</th>
+        <th>Rate</th>
+        <th>No.Of.Items</th>
+        <th>Amount</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="sl" class="common" placeholder="Enter sl.no"></td>
+        <td><input type="text" id="item" class="common" placeholder="Enter  Item Name"></td>
+        <td><input type="text" id="rate" class="common" placeholder="Enter  Price Of Item"></td>
+        <td><input type="text" id="no" class="common" placeholder="Enter  number of item "></td>
+        <td><input type="text" id="amount" class="common" placeholder="total amount"></td>
+        <td><button id="btn">Submit</button></td>
+        <td><button id="reset">Reset</button></td>
+        
+    </tr>
+</table>
+ <br><br><br><br>
+
+ <table id="bill">
+     <tr id="ss">
+         <th id="bill1">Sl.no </th>
+         <th id="bill1">Product </th>
+         <th id="bill1">Rate</th>
+         <th id="bill1">No of iteam</th>
+         <th id="bill1">amount </th>
+        
+     </tr>
+
+ </table><br><br>
+ <div class="small">
+ <label for="">TOTAL :</label>
+ <input type="text" id="total_amount">
+</div>
+ <br><br>
+  <button id="all">ResetAll</button>
+    <script type="text/javascript" src="Quote.js"></script>
+</body>
+
+</html>

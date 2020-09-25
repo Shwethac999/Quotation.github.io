@@ -1,0 +1,70 @@
+.container{
+    height: 100px;
+    background-color: rgb(224, 184, 131);
+    color: whitesmoke;
+}
+body{
+   
+    background-color: rgb(246, 237, 201);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    font-size:40px ;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+#date{
+    margin-right: 200px;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+.common{
+    height: 25px;
+    text-align: center;
+
+}
+.tab{
+    margin-left: 150px;
+}
+#btn{
+    margin-left: 20px;
+    height: 25px;
+    width: 60px;
+}
+#reset{
+    margin-left: 20px;
+    height: 25px;
+    width: 60px;
+}
+
+#bill,#ss,#bill1{
+    border: 2px solid black;
+     border-collapse: collapse;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#bill{
+    margin-left: 180px;
+}
+.small{
+    margin-left: 900px;
+    font-weight: 600;
+}
+#total_amount{
+    height: 25px;
+    text-align: center;
+}
+#all{
+    margin-left: 600px;
+    background-color: blue;
+    height: 35px;
+    width: 80px;
+}
